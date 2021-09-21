@@ -1,0 +1,90 @@
+body{
+        background-color: aliceblue;
+    }
+
+    h1{
+        text-align: center;
+    padding: 20px;
+    border: 4px solid wheat;
+    margin-bottom: 5px;
+    background-color: #f4f7fa;
+    }
+
+    #introduction {
+        bottom: 0;
+        border: 2px solid #73AD21;
+    }
+
+    .cal{
+        width: 400px;
+        background-color: black;
+        color: white;
+        position: absolute;
+        right: 37%;
+    }
+
+    .screen{
+        text-align: right;
+        padding: 7px;
+        margin-top: 0px;
+        background-color: #4e83a6;
+        font-size: 79px;
+    }
+
+    .cal-button{
+        background-color: thistle;
+        color: black;
+        border-radius: 4px;
+        height: 100px;
+        width: 25%;
+        cursor: pointer;
+        font-size: 60px;
+    }
+
+    .cal-button:last-child{
+        background-color: chocolate;
+        color: white;
+    }
+    .cal-button:last-child:hover{
+        background-color: violet;
+    }
+    .cal-button:hover{
+        background-color: rgb(236, 228, 222);
+    }
+
+    .double-cal-button{
+        background-color: thistle;
+        color: black;
+        border-radius: 4px;
+        height: 100px;
+        width: 50%;
+        cursor: pointer;
+        font-size: 60px;
+    }
+
+    .double-cal-button:hover{
+        background-color: rgb(236, 228, 222);
+    }
+
+   .tripple-cal-button{
+    background-color: thistle;
+    color: black;
+    border-radius: 4px;
+    height: 100px;
+    width: 75%;
+    cursor: pointer;
+    font-size: 60px;
+
+    }
+
+    .tripple-cal-button:hover{
+        background-color: rgb(236, 228, 222);
+    }
+
+
+    .cal-row{
+        display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0;
+    }
